@@ -1,0 +1,203 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "Admin",
+      "email": "admin@test.com",
+      "password": "123",
+      "role": "admin"
+    },
+    {
+      "id": "2",
+      "name": "John Doe",
+      "email": "john@test.com",
+      "password": "123",
+      "role": "user"
+    }
+  ],
+  "slides": [
+    {
+      "id": "1",
+      "image": "/images/slide1.jpg",
+      "title": "New Arrivals",
+      "link": "/products/mobile/all"
+    },
+    {
+      "id": "2",
+      "image": "/images/slide2.jpg",
+      "title": "Gaming Laptops",
+      "link": "/products/laptop/all"
+    },
+    {
+      "id": "3",
+      "image": "/images/slide3.jpg",
+      "title": "Best Accessories",
+      "link": "/products/mobile/apple"
+    }
+  ],
+  "products": [
+    {
+      "id": "1766782920062",
+      "name": "Apple iphone 17",
+      "price": 980,
+      "brand": "apple",
+      "category": "mobile",
+      "description": "dsgfsdfhedthdtrj tr jrjh j tr",
+      "image": "/images/Apple iPhone 17.jpg"
+    },
+    {
+      "id": "1766783007654",
+      "name": "Dell 16 Plus",
+      "price": 670,
+      "brand": "Dell",
+      "category": "Laptop",
+      "description": "gfh h etyhtr5h 5hrht ",
+      "image": "/images/Dell 16 Plus.jpg"
+    },
+    {
+      "id": "1766783033878",
+      "name": "HP OmniBook X 14",
+      "price": 770,
+      "brand": "hp",
+      "category": "laptop",
+      "description": "th  htr htrj trj ",
+      "image": "/images/HP OmniBook X 14.jpg"
+    },
+    {
+      "id": "1766783164630",
+      "name": "Samsung S25 Ultra",
+      "price": 980,
+      "brand": "samsung",
+      "category": "Mobile",
+      "description": "rg  rgh erh h ",
+      "image": "/images/s25 ultra.jpg"
+    },
+    {
+      "id": "1766783197901",
+      "name": "Samsung Galaxy Z Fold",
+      "price": 1200,
+      "brand": "samsung",
+      "category": "mobile",
+      "description": "rsfg er erh erh ",
+      "image": "/images/galaxy z fold.jpg"
+    },
+    {
+      "id": "1766783226301",
+      "name": "Apple Iphone 17 Air",
+      "price": 880,
+      "brand": "apple",
+      "category": "mobile",
+      "description": "fsgv  ",
+      "image": "/images/apple-iphone-air.jpg"
+    }
+  ],
+  "flashSale": [
+    {
+      "id": "e76b",
+      "productId": 1766783007654,
+      "discountPrice": 590,
+      "endTime": 1774559755222
+    },
+    {
+      "id": "725f",
+      "productId": 1766783164630,
+      "discountPrice": 890,
+      "endTime": 1774559898211
+    },
+    {
+      "id": "5d86",
+      "productId": 1766782920062,
+      "discountPrice": 890,
+      "endTime": 1774552718203
+    },
+    {
+      "id": "1102",
+      "productId": 1766783197901,
+      "discountPrice": 1050,
+      "endTime": 1774552737745
+    }
+  ],
+  "carts": [
+    {
+      "id": "2",
+      "userId": "2",
+      "items": [
+        {
+          "id": "1766783007654",
+          "name": "Dell 16 Plus",
+          "price": 670,
+          "brand": "Dell",
+          "category": "Laptop",
+          "description": "gfh h etyhtr5h 5hrht ",
+          "image": "/images/Dell 16 Plus.jpg",
+          "quantity": 3,
+          "priceAtPurchase": 590
+        },
+        {
+          "id": "1766783197901",
+          "name": "Samsung Galaxy Z Fold",
+          "price": 1200,
+          "brand": "samsung",
+          "category": "mobile",
+          "description": "rsfg er erh erh ",
+          "image": "/images/galaxy z fold.jpg",
+          "flashInfo": null,
+          "currentPrice": 1200,
+          "isSale": false,
+          "quantity": 1,
+          "priceAtPurchase": 1050
+        },
+        {
+          "id": "1766783033878",
+          "name": "HP OmniBook X 14",
+          "price": 770,
+          "image": "/images/HP OmniBook X 14.jpg",
+          "quantity": 1,
+          "priceAtPurchase": 770
+        }
+      ],
+      "wishlist": [
+        {
+          "id": "1766783033878",
+          "name": "HP OmniBook X 14",
+          "price": 770,
+          "image": "/images/HP OmniBook X 14.jpg",
+          "category": "laptop",
+          "brand": "hp",
+          "currentPrice": 770,
+          "isSale": false
+        },
+        {
+          "id": "1766782920062",
+          "name": "Apple iphone 17",
+          "price": 980,
+          "brand": "apple",
+          "category": "mobile",
+          "description": "dsgfsdfhedthdtrj tr jrjh j tr",
+          "image": "/images/Apple iPhone 17.jpg",
+          "flashInfo": {
+            "id": "5d86",
+            "productId": 1766782920062,
+            "discountPrice": 890,
+            "endTime": 1774552718203,
+            "timeLeft": "56:22:10"
+          }
+        },
+        {
+          "id": "1766783226301",
+          "name": "Apple Iphone 17 Air",
+          "price": 880,
+          "image": "/images/apple-iphone-air.jpg",
+          "category": "mobile",
+          "brand": "apple"
+        }
+      ]
+    },
+    {
+      "id": "1",
+      "userId": "1",
+      "items": [],
+      "wishlist": []
+    }
+  ]
+}
